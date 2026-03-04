@@ -60,7 +60,7 @@ export default function LandingPage() {
               id: "1",              imageSrc: "http://img.b2bpic.net/free-photo/boy-girl-plastic-garbage-collection_1268-20101.jpg",              imageAlt: "composting waste school sustainability"
             },
             {
-              id: "2",              imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196184.jpg",              imageAlt: "school food waste cafeteria disposal"
+              id: "2",              imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196184.jpg?_wi=1",              imageAlt: "school food waste cafeteria disposal"
             },
             {
               id: "3",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-gardening-tools-ground_23-2148200480.jpg",              imageAlt: "soil compost earth garden"
@@ -69,10 +69,10 @@ export default function LandingPage() {
               id: "4",              imageSrc: "http://img.b2bpic.net/free-photo/mother-daughter-preparing-plant-tree-woods_482257-91250.jpg",              imageAlt: "student youth leader environmental"
             },
             {
-              id: "5",              imageSrc: "http://img.b2bpic.net/free-photo/composition-compost-made-rotten-food_23-2149073816.jpg",              imageAlt: "composting process decomposition organic environmental"
+              id: "5",              imageSrc: "http://img.b2bpic.net/free-photo/composition-compost-made-rotten-food_23-2149073816.jpg?_wi=1",              imageAlt: "composting process decomposition organic environmental"
             },
             {
-              id: "6",              imageSrc: "http://img.b2bpic.net/free-photo/view-green-forest-trees-with-co2_23-2149675039.jpg",              imageAlt: "environment carbon emissions green"
+              id: "6",              imageSrc: "http://img.b2bpic.net/free-photo/view-green-forest-trees-with-co2_23-2149675039.jpg?_wi=1",              imageAlt: "environment carbon emissions green"
             },
           ]}
           autoPlay={true}
@@ -103,7 +103,7 @@ export default function LandingPage() {
               title: "Methane Reduction",              description: "Diverts food waste from landfills, preventing methane emissions and climate impact",              icon: Wind,
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196184.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196184.jpg?_wi=2"
           imageAlt="School food waste composting system"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -134,7 +134,7 @@ export default function LandingPage() {
               id: "4",              title: "Community Engagement",              content: "Builds leadership skills while fostering school-wide environmental awareness. Students present results, manage operations, and lead peer education."
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/composition-compost-made-rotten-food_23-2149073816.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/composition-compost-made-rotten-food_23-2149073816.jpg?_wi=2"
           imageAlt="Composting process visualization"
           mediaAnimation="slide-up"
           mediaPosition="left"
@@ -189,7 +189,7 @@ export default function LandingPage() {
               id: "4",              title: "Step 4: Harvest & Use",              content: "Finished compost is used in school gardens, landscaping, or sold locally. Students benefit from fresh produce and revenue generation."
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/view-green-forest-trees-with-co2_23-2149675039.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/view-green-forest-trees-with-co2_23-2149675039.jpg?_wi=2"
           imageAlt="Environmental impact measurement"
           mediaAnimation="slide-up"
           mediaPosition="right"
@@ -226,22 +226,22 @@ export default function LandingPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",              name: "Maya Rodriguez",              handle: "Environmental Club President",              testimonial: "Breaking Down gave us the tools to make real environmental impact in our school. Our team reduced waste by 40% and learned so much about sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg",              imageAlt: "Maya Rodriguez",              icon: Quote,
+              id: "1",              name: "Maya Rodriguez",              handle: "Environmental Club President",              testimonial: "Breaking Down gave us the tools to make real environmental impact in our school. Our team reduced waste by 40% and learned so much about sustainability.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg?_wi=1",              imageAlt: "Maya Rodriguez",              icon: Quote,
             },
             {
-              id: "2",              name: "Dr. James Chen",              handle: "School Facilities Director",              testimonial: "The ROI is exceptional. We've reduced disposal costs, created valuable compost for our gardens, and engaged students in meaningful environmental action.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg",              imageAlt: "Dr. James Chen",              icon: Quote,
+              id: "2",              name: "Dr. James Chen",              handle: "School Facilities Director",              testimonial: "The ROI is exceptional. We've reduced disposal costs, created valuable compost for our gardens, and engaged students in meaningful environmental action.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=1",              imageAlt: "Dr. James Chen",              icon: Quote,
             },
             {
               id: "3",              name: "Sarah Thompson",              handle: "Environmental Advocate",              testimonial: "Breaking Down combines environmental urgency with practical, scalable solutions. This is the kind of youth-led innovation we need.",              imageSrc: "http://img.b2bpic.net/free-photo/young-person-intership_23-2149315641.jpg",              imageAlt: "Sarah Thompson",              icon: Quote,
             },
             {
-              id: "4",              name: "Michael Torres",              handle: "Science Teacher",              testimonial: "My students learned more about systems thinking, environmental science, and leadership through this project than in any traditional classroom activity.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg",              imageAlt: "Michael Torres",              icon: Quote,
+              id: "4",              name: "Michael Torres",              handle: "Science Teacher",              testimonial: "My students learned more about systems thinking, environmental science, and leadership through this project than in any traditional classroom activity.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=2",              imageAlt: "Michael Torres",              icon: Quote,
             },
             {
-              id: "5",              name: "Lisa Wang",              handle: "Sustainability Coordinator",              testimonial: "The data is compelling. We can now demonstrate measurable environmental and economic impact to our board and community partners.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg",              imageAlt: "Lisa Wang",              icon: Quote,
+              id: "5",              name: "Lisa Wang",              handle: "Sustainability Coordinator",              testimonial: "The data is compelling. We can now demonstrate measurable environmental and economic impact to our board and community partners.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg?_wi=2",              imageAlt: "Lisa Wang",              icon: Quote,
             },
             {
-              id: "6",              name: "Kevin Adams",              handle: "Parent & Community Partner",              testimonial: "Breaking Down shows our kids that they can drive real environmental change. That's exactly what our community needed.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg",              imageAlt: "Kevin Adams",              icon: Quote,
+              id: "6",              name: "Kevin Adams",              handle: "Parent & Community Partner",              testimonial: "Breaking Down shows our kids that they can drive real environmental change. That's exactly what our community needed.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=3",              imageAlt: "Kevin Adams",              icon: Quote,
             },
           ]}
           animationType="slide-up"
