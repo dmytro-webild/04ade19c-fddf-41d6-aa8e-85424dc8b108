@@ -9,7 +9,7 @@ import MetricCardFourteen from "@/components/sections/metrics/MetricCardFourteen
 import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import ContactFaq from "@/components/sections/contact/ContactFaq";
 import FooterBaseReveal from "@/components/sections/footer/FooterBaseReveal";
-import { Sprout, DollarSign, TrendingUp, Users, Wind, Leaf, Quote, Bucket } from "lucide-react";
+import { Sprout, DollarSign, TrendingUp, Users, Wind, Leaf, Quote } from "lucide-react";
 
 export default function LandingPage() {
   return (
