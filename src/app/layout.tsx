@@ -1,57 +1,20 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
-import { Figtree } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
-
-const figtree = Figtree({
-  variable: "--font-figtree",  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Breaking Down | School Composting & Food Waste Solutions",  description: "Transform school food waste into sustainable soil. Youth-led composting solution reducing methane emissions, cutting costs, and empowering student environmental leaders.",  keywords: "school composting, food waste reduction, environmental education, sustainable solutions, youth leadership, methane reduction",  metadataBase: new URL("https://breakingdown.org"),
-  alternates: {
-    canonical: "https://breakingdown.org"},
-  openGraph: {
-    title: "Breaking Down | Turning School Food Waste into Sustainable Soil",    description: "A low-cost, scalable composting solution for schools. Reduce waste, cut emissions, empower students.",    url: "https://breakingdown.org",    siteName: "Breaking Down",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/boy-girl-plastic-garbage-collection_1268-20101.jpg",        alt: "Breaking Down composting solution"},
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Breaking Down | School Food Waste into Sustainable Soil",    description: "Youth-led composting: reduce waste, cut emissions, empower leaders",    images: ["http://img.b2bpic.net/free-photo/boy-girl-plastic-garbage-collection_1268-20101.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "Breaking Down | School Food Waste Composting Solution",  description: "Transform school food waste into sustainable soil. Breaking Down is a youth-led, low-cost composting solution designed for schools."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${figtree.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1419,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
