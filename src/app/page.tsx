@@ -7,10 +7,9 @@ import SplitAbout from "@/components/sections/about/SplitAbout";
 import FeatureCardTwentyOne from "@/components/sections/feature/FeatureCardTwentyOne";
 import MetricCardFourteen from "@/components/sections/metrics/MetricCardFourteen";
 import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
-import TestimonialCardSix from "@/components/sections/testimonial/TestimonialCardSix";
 import ContactFaq from "@/components/sections/contact/ContactFaq";
 import FooterBaseReveal from "@/components/sections/footer/FooterBaseReveal";
-import { Sprout, DollarSign, TrendingUp, Users, Wind, Leaf, Quote } from "lucide-react";
+import { Sprout, DollarSign, TrendingUp, Users, Wind, Leaf, Quote, Bucket } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -180,7 +179,7 @@ export default function LandingPage() {
               id: "1",              title: "Step 1: Collection",              content: "Schools collect food waste from cafeterias into designated bins. Students manage collection rotations and track waste volume daily."
             },
             {
-              id: "2",              title: "Step 2: Composting",              content: "Food waste is combined with yard waste in our low-cost composting system. Passive decomposition requires minimal maintenance over 12-16 weeks."
+              id: "2",              title: "Step 2: Composting with Plastic Tote 🪣",              content: "Food waste is combined with yard waste in our low-cost plastic tote composting bin. This affordable container holds 18-20 gallons and requires minimal maintenance over 12-16 weeks. The simple design makes it perfect for student-led programs."
             },
             {
               id: "3",              title: "Step 3: Monitoring",              content: "Students monitor temperature, moisture, and decomposition progress. Digital tracking provides real-time environmental impact data."
@@ -216,40 +215,6 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonials" data-section="testimonials">
-        <TestimonialCardSix
-          title="What People Are Saying"
-          description="Hear from students, educators, and environmental advocates who are driving real change through Breaking Down"
-          tag="Real Impact"
-          tagAnimation="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          testimonials={[
-            {
-              id: "1",              name: "Maya Rodriguez",              handle: "Environmental Club President",              testimonial: "Breaking Down gave our team the tools to make real environmental impact in our school. We reduced waste by 40% and learned so much about sustainability systems.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg?_wi=1",              imageAlt: "Maya Rodriguez",              icon: Quote,
-            },
-            {
-              id: "2",              name: "James Chen",              handle: "School Facilities Director",              testimonial: "The return on investment is exceptional. We've reduced disposal costs, created valuable compost for our gardens, and engaged students in meaningful environmental action.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=1",              imageAlt: "James Chen",              icon: Quote,
-            },
-            {
-              id: "3",              name: "Sarah Thompson",              handle: "Science Educator",              testimonial: "Breaking Down combines environmental urgency with practical, scalable solutions. This is the kind of youth-led innovation that drives real change.",              imageSrc: "http://img.b2bpic.net/free-photo/young-person-intership_23-2149315641.jpg",              imageAlt: "Sarah Thompson",              icon: Quote,
-            },
-            {
-              id: "4",              name: "Michael Torres",              handle: "Science Teacher",              testimonial: "My students learned more about systems thinking and environmental leadership through this project than in traditional classroom activities. It was transformative.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=2",              imageAlt: "Michael Torres",              icon: Quote,
-            },
-            {
-              id: "5",              name: "Lisa Wang",              handle: "Sustainability Coordinator",              testimonial: "The data is compelling. We can now demonstrate measurable environmental and economic impact to our school board and community partners.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-delighted-hipster-male-student-with-crisp-hair_176532-8157.jpg?_wi=2",              imageAlt: "Lisa Wang",              icon: Quote,
-            },
-            {
-              id: "6",              name: "David Kim",              handle: "Parent & Community Member",              testimonial: "Breaking Down shows young people they can drive real environmental change. That's exactly what our community needed to see and support.",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-glasses-workplace_1301-980.jpg?_wi=3",              imageAlt: "David Kim",              icon: Quote,
-            },
-          ]}
-          animationType="slide-up"
-          speed={40}
-          buttonAnimation="slide-up"
-        />
-      </div>
-
       <div id="get-involved" data-section="get-involved">
         <ContactFaq
           ctaTitle="Start Your Breaking Down Program"
@@ -281,6 +246,29 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="contact" data-section="contact">
+        <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-background to-card">
+          <div className="w-full max-w-md px-8 py-12 text-center">
+            <h1 className="text-4xl font-bold mb-6 text-foreground">Get in Touch</h1>
+            <p className="text-lg text-foreground/80 mb-8">We'd love to hear from you. Reach out to discuss your Breaking Down composting program.</p>
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-2xl">✉️</span>
+                <a href="mailto:harsehaj.email@gmail.com" className="text-primary-cta hover:underline font-semibold">
+                  harsehaj.email@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center justify-center gap-3">
+                <span className="text-2xl">📱</span>
+                <a href="tel:+15715679741" className="text-primary-cta hover:underline font-semibold">
+                  571-567-9741
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={[
@@ -294,7 +282,6 @@ export default function LandingPage() {
             {
               title: "Community",              items: [
                 { label: "Get Involved", href: "#get-involved" },
-                { label: "Student Stories", href: "#testimonials" },
                 { label: "Partnership", href: "#contact" },
               ],
             },
@@ -302,7 +289,7 @@ export default function LandingPage() {
               title: "Resources",              items: [
                 { label: "Implementation Guide", href: "#" },
                 { label: "Data Dashboard", href: "#" },
-                { label: "Contact Us", href: "#" },
+                { label: "Contact Us", href: "#contact" },
               ],
             },
           ]}
