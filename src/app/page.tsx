@@ -159,7 +159,7 @@ export default function LandingPage() {
               id: "3",              value: "$45K+",              description: "Average annual savings per school through waste reduction and soil production"
             },
             {
-              id: "4",              value: "2,500+",              description: "Students trained in environmental leadership and sustainable practices"
+              id: "4",              value: "2,500+",              description: "Can be trained to reduce waste in their homes"
             },
           ]}
           metricsAnimation="slide-up"
